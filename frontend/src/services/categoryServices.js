@@ -1,4 +1,4 @@
-import axios from "./axios"; // axios đã cấu hình baseURL = http://127.0.0.1:8000/api/
+import axios from "./api"; // axios đã cấu hình baseURL = http://127.0.0.1:8000/api/
 
 // Lấy toàn bộ danh mục
 export const getAllCategories = async () => {

@@ -1,4 +1,4 @@
-import axios from "./axios";
+import axios from "./api";
 
 export const getVenues = async ({ search = "", page = 1 }) => {
   const res = await axios.get("venues", {

@@ -1,4 +1,4 @@
-import axios from "./axios";
+import axios from "./api";
 
 // ✅ Lấy danh sách voucher (object phân trang)
 export const getAllVouchers = async () => {

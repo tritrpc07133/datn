@@ -1,4 +1,4 @@
-import instance from "./axios";
+import instance from "./api";
 
 // Lấy danh sách
 export const getCategoryMenus = () => {

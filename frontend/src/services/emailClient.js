@@ -1,4 +1,4 @@
-import axios from "./axios"; // axios instance bạn đã cấu hình
+import axios from "./api"; // axios instance bạn đã cấu hình
 
 // ✅ Gửi thông tin liên hệ
 export const sendContact = async (formData) => {

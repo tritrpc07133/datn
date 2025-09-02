@@ -1,42 +1,6 @@
-// import axios from "./axios";
-//
-// // Lấy tất cả user
-// export const getAllUsers = async () => {
-//   try {
-//     const response = await axios.get("users");
-//     return response.data;
-//   } catch (error) {
-//     throw error;
-//   }
-// };
-//
-//
-// // Tạo user mới
-// export const createUser = async (data) => {
-//   try {
-//     const response = await axios.post("users", data);
-//     return response.data;
-//   } catch (error) {
-//     throw error;
-//   }
-// };
-//
-//
-// // Kiểm tra trùng username hoặc email
-// // Giả sử backend có endpoint: GET /users/check-unique?field=username&value=abc&id=1 (id là tùy chọn để bỏ qua user id đó khi sửa)
-// export const checkUnique = async (field, value, id = null) => {
-//   try {
-//     let url = `users/check-unique?field=${encodeURIComponent(field)}&value=${encodeURIComponent(value)}`;
-//     if (id) url += `&id=${id}`;
-//     const response = await axios.get(url);
-//     // backend trả về { exists: true/false }
-//     return response.data.exists;
-//   } catch (error) {
-//     throw error;
-//   }
-// };
 
-import axios from "./axios";
+
+import axios from "./api";
 
 // Lấy tất cả user
 export const getAllUsers = async () => {

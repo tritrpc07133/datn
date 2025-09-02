@@ -1,5 +1,4 @@
-// src/services/roomSchedules.js
-import axios from "./axios"; // ✅ Instance axios với baseURL đã config
+import axios from "./api";// ✅ Instance axios với baseURL đã config
 
 const API_URL = "/admin/schedules";
 

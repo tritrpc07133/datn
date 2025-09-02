@@ -1,4 +1,4 @@
-import instance from "./axios";
+import instance from "./api";
 
 export const getAllLocationTypes = async () => {
     try {

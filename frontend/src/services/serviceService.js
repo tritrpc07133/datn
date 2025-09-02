@@ -1,4 +1,4 @@
-import axios from "./axios";
+import axios from "./api";
 
 export const getServices = async ({ search = "", page = 1 }) => {
   return axios.get("services", { params: { search, page } });
